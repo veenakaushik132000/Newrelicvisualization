@@ -14,7 +14,7 @@ export default class HomeNerdlet extends React.Component {
     fullHeight
     />
     
-    <p style={{color: "skyblue", padding:"10px" , alignitem:"center", background:"Salmon", fontSize:"20px", textAlign:"center"}}>This is PieChart</p>
+    <p style={{color: "skyblue", padding:"10px" , alignitem:"center", background:"Salmon", fontSize:"20px", textAlign:"center"}}>This is LineChart</p>
     <LineChart style={{width:"60%", height:"35%"}}
     accountId = {3932072}
     query = "SELECT average(host.net.transmitBytesPerSecond) AS 'Transmit bytes per second', average(host.net.receiveBytesPerSecond) AS 'Receive bytes per second' FROM Metric WHERE `entityGuid` = 'MzkzMjA3MnxJTkZSQXxOQXw4NDc0MDAzMDUwOTc5MDUyMTAy' TIMESERIES auto"
